@@ -8,7 +8,7 @@ then
   echo 'No filename argument provided'
   exit -1
 fi
-if [ ! $FILENAME2 ]
+if [ ! $FILENAME_NEW ]
 then
   FILENAME_NEW=$FILENAME
 fi
